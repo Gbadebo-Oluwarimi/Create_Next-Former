@@ -1,0 +1,17 @@
+.Mainsection{
+    margin-top:2rem;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:#979696;
+    margin-bottom:20px;
+    padding:10px;
+}
+d::after{
+    content: '""';
+}
+d::before{
+    content: '""';
+}

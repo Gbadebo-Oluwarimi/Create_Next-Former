@@ -1,0 +1,85 @@
+.section{
+    margin:0 auto;
+    max-width:1900px;
+    border-radius:10px;
+}
+.flexy{
+    display: flex;
+}
+.left-2{
+    width:50%;
+    height:100%;
+
+}
+.fi:hover{
+   color:#e6e6e6;
+   cursor:pointer;
+}
+.icons{
+    height:28px;
+}
+.title-left{
+    padding-bottom:20px;
+}
+.left-content{
+    margin: 4rem;
+    
+
+
+}
+.list-content{
+    margin-top:30px;
+}
+.list-content-1{
+    display: flex;
+    
+}
+.content-list{
+    margin-left:20px;
+}
+.fi-rr-paper-plane{
+    position:relative;
+     top:20px; 
+     font-size:50px; 
+     justify-content:center;
+     color:blueviolet;
+        -webkit-transition: 0.6s ease-out;
+        -moz-transition:  0.6s ease-out;
+        transition:  0.6s ease-in;
+}
+.icons:hover{
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg);
+  transition:  0.6s ease-out;
+}
+@media screen and (max-width:800px) {
+    .flexy{
+        display: block;
+    }
+    .left-2{
+        width:100%;
+        padding:5px;
+        background-color: #e6e6e6;
+    }
+    .left-content{
+        margin:0;
+        width:100%;
+    }
+    .list-content-1{
+        display:inline-block;
+        text-align: center;
+        width:100%;
+        justify-content: center;
+    }
+    .icons{
+        justify-content: center;
+        display: inline-block;
+    }
+    .content-list{
+        margin: 0;
+    }
+}
+.content1{
+    margin-top:20px;
+}

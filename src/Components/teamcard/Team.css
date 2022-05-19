@@ -1,0 +1,33 @@
+.teamcard{
+    padding:20px;
+    background-color:#e6e6e6;
+    border-radius: 10px;
+    width:280px;
+    margin:20px;
+    min-height: 400px;
+    -webkit-transition: 0.6s ease-out;
+    -moz-transition:  0.6s ease-out;
+    transition:  0.6s ease-in;
+}
+.userimg{
+    margin-bottom:10px;
+    border-radius:60px;
+    width:200px;
+    height:200px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nametitle{
+    /* margin-bottom:70px; */
+}
+
+.teamcard:hover{
+    transform: scale(1.04);
+    transition:  0.4s ease-out;
+}
+@media screen and (max-width:800px) {
+    .teamcard{
+
+    }
+}

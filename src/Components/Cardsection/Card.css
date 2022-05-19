@@ -1,0 +1,37 @@
+.card-center-title{
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-cards{
+    display:flex;
+    margin: 0 auto;
+    max-width:1000px;
+    justify-content: space-between;
+    padding:10px;
+    text-align: center;
+}
+.card-1, .card-2,.card-3{
+    width: 300px;
+    height:400px;
+    margin:20px;
+    padding:20px;
+    background-color:#e6e6e6;
+    border-radius: 10px;
+}
+.header-card{
+    margin-bottom:30px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.fi-rr-envelope:hover{
+    color:#fff;
+    transition: 0.5s ease-in-out;
+}
+@media  screen and (max-width:800px) {
+    .main-cards{
+        display: inline-block;
+    }
+    
+}
