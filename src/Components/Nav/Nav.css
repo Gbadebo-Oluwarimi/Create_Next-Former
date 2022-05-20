@@ -45,6 +45,9 @@ button{
     background-color: #fff;
     cursor:pointer
 }
+.hamburger{
+    display: none;
+}
 @media screen and (max-width:800px) {
     nav ul li{
         display:none;

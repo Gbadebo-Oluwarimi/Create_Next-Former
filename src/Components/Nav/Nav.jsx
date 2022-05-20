@@ -13,7 +13,7 @@ const Nav = ({change}) => {
          <li>About</li>
        </ul>
      </nav>
-     <div className='hamburdger'>
+     <div className='hamburger'>
        <span onClick={() => change()}>|||</span>
      </div>
      <div className='right-bar'>

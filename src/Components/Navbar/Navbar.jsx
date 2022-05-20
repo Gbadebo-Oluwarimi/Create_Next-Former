@@ -5,7 +5,7 @@ import Nav from '../Nav/Nav'
 import './Navbar.css'
 
 const Navbar = () => {
-  const [appbar, setAppbar] = useState(true)
+  const [appbar, setAppbar] = useState(false)
   const settofalse = () => {
     console.log("changed to false")
     setAppbar(false);
